@@ -1,6 +1,9 @@
 div{
-  background-color: #252A34;
+  /*background-color: #252A34;
   color: #BBE1FA;
+  */
+  background-color: #000000;
+  color:#FFC600;
   text-align: center;
   font-family: 'Courgette', cursive;
 
@@ -21,18 +24,30 @@ body{
 }
 
 h1{
+  color: #E900FF;
   margin-top: 0px;
   font-size: 5rem;
 }
 h2{
+  color: #E900FF;
   font-size: 3rem;
 }
 h3{
+  color: #E900FF;
   font-size: 2rem;
   font-weight: bold;
 }
+h4{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
 p{
-  font-size: 1.375rem;
+  font-size: 1.6rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 .bottom-cloud{
   position: absolute;
@@ -43,8 +58,64 @@ p{
   right:30%;
   top: 50px;
 }
+
+ol {
+  display: table;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-contact-me {
+  background-color: #000000; 
+  color: white; 
+  border: 2px solid #E900FF;
+}
+
+.button-contact-me:hover {
+  background-color: #E900FF;
+  color: white;
+}
+
+.button-education {
+  background-color: #000000; 
+  color: white; 
+  border: 2px solid #E900FF;
+}
+
+.button-education:hover {
+  background-color: #E900FF;
+  color: white;
+}
+
+.button-work-experience {
+  background-color: #000000; 
+  color: white; 
+  border: 2px solid #E900FF;
+}
+
+.button-work-experience:hover {
+  background-color: #E900FF;
+  color: white;
+}
+
+
+
 .top-container{
-  background-color:#252A34;
   padding-top: 100px;
 }
 .skills-grid{
@@ -76,6 +147,13 @@ p{
 .testB:focus ~ #testB {display: block; }
 .testC:focus ~ #testC {display: block; }
 .testD:focus ~ #testD {display: block; }
+
+.footer-link{
+  color: #2940D3;
+}
+.copyright{
+  color:#E900FF;
+}
 
 .inline{
   display:inline;
