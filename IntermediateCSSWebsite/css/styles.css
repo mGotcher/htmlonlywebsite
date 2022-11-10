@@ -41,6 +41,11 @@ h4{
   font-size: 1.75rem;
   font-weight: bold;
 }
+h5{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
 
 p{
   font-size: 1.6rem;
@@ -63,6 +68,12 @@ ol {
   display: table;
   font-size: 2rem;
   margin: 3% auto;
+  text-align: left;
+}
+ul {
+  display: table;
+  font-size: 1.4rem;
+  margin-left: 6% auto;
   text-align: left;
 }
 li{
