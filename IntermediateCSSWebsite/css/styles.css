@@ -2,8 +2,8 @@ div{
   /*background-color: #252A34;
   color: #BBE1FA;
   */
-  background-color: #000000;
-  color:#FFC600;
+  background-color: #1C1427;
+  color:#ffffff;
   text-align: center;
   font-family: 'Courgette', cursive;
 
@@ -24,16 +24,16 @@ body{
 }
 
 h1{
-  color: #E900FF;
+  color: #7ECA9C;
   margin-top: 0px;
   font-size: 5rem;
 }
 h2{
-  color: #E900FF;
+  color: #7ECA9C;
   font-size: 3rem;
 }
 h3{
-  color: #E900FF;
+  color: #7ECA9C;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -62,12 +62,14 @@ p{
 ol {
   display: table;
   font-size: 2rem;
-  margin: 0 auto;
+  margin: 3% auto;
   text-align: left;
+}
+li{
+  margin-left: 3% auto;
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 16px 32px;
@@ -81,35 +83,35 @@ ol {
 }
 
 .button-contact-me {
-  background-color: #000000; 
+  background-color: #1C1427; 
   color: white; 
-  border: 2px solid #E900FF;
+  border: 2px solid #7ECA9C;
 }
 
 .button-contact-me:hover {
-  background-color: #E900FF;
+  background-color: #7ECA9C;
   color: white;
 }
 
 .button-education {
-  background-color: #000000; 
+  background-color: #1C1427; 
   color: white; 
-  border: 2px solid #E900FF;
+  border: 2px solid #7ECA9C;
 }
 
 .button-education:hover {
-  background-color: #E900FF;
+  background-color: #7ECA9C;
   color: white;
 }
 
 .button-work-experience {
-  background-color: #000000; 
+  background-color: #1C1427; 
   color: white; 
-  border: 2px solid #E900FF;
+  border: 2px solid #7ECA9C;
 }
 
 .button-work-experience:hover {
-  background-color: #E900FF;
+  background-color: #7ECA9C;
   color: white;
 }
 
